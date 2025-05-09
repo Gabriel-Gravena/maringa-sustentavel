@@ -83,7 +83,9 @@ Este projeto é parte da Atividade de Estudo Programado (AEP) da **Universidade 
 ## 👨‍💻 Autor
 
 **Gabriel Cesar Gravena**
+
 **Guilherme Bandeira Rodrigues**
+
 Estudantes de Engenharia de Software - UniCesumar  
 
 www.linkedin.com/in/gabriel-cesar-gravena
