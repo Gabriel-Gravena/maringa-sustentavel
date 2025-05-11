@@ -7,7 +7,7 @@ import PontosDeColeta from '@/views/PontosDeColeta.vue'
 import DashboardsView from '@/views/DashboardsView.vue'
 
 const routes = [
-  { path: '/HomeView', component: HomeView, name: 'home' },
+  { path: '/', component: HomeView, name: 'home' },
   { path: '/AprendaView', component: AprendaView, name: 'aprenda' },
   { path: '/CalculadoraView', component: CalculadoraView, name: 'calculadora' },
   { path: '/PontosDeColeta', component: PontosDeColeta, name: 'pontos-de-coleta' },
