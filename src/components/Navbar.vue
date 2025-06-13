@@ -15,8 +15,8 @@ function fecharMenu() {
 
 <template>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary p-2">
-            <div class="container-fluid m-lg-2">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary p-2 shadow-sm">
+            <div class="container-fluid m-lg-1">
                 <div class="d-flex align-items-center">
                     <Logo class="mx-1" />
                     <RouterLink to="/" class="logo">Maringá Sustentavel</RouterLink>
@@ -27,36 +27,36 @@ function fecharMenu() {
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav  mb-lg-0 ms-lg-2">
+                    <ul class="navbar-nav mb-lg-0 ms-lg-2">
                         <li class="nav-item">
                             <RouterLink to="/" 
-                            class="link" 
+                            class="link pt-2" 
                             exact-active-class="active-link"
-                            @click="fecharMenu"><HomeFilled class="icon p-1" />Home</RouterLink>
+                            @click="fecharMenu"><HomeFilled class="icon pb-1" />Home</RouterLink>
                         </li>
                         <li class="nav-item">
                             <RouterLink to="/AprendaView" 
-                            class="link" 
+                            class="link pt-2" 
                             exact-active-class="active-link"
-                            @click="fecharMenu"><Reading class="icon p-1" />Aprenda</RouterLink>
+                            @click="fecharMenu"><Reading class="icon pb-1" />Aprenda</RouterLink>
                         </li>
                         <li class="nav-item">
                             <RouterLink to="/CalculadoraView" 
-                            class="link" 
+                            class="link pt-2" 
                             exact-active-class="active-link"
-                            @click="fecharMenu"><Cellphone class="icon p-1"  />Calculadora</RouterLink>
+                            @click="fecharMenu"><Cellphone class="icon pb-1"  />Calculadora</RouterLink>
                         </li>
                         <li class="nav-item">
                             <RouterLink to="/PontosDeColeta" 
-                            class="link" 
+                            class="link pt-2" 
                             exact-active-class="active-link"
-                            @click="fecharMenu"><Location class="icon p-1" />Pontos de coleta</RouterLink>
+                            @click="fecharMenu"><Location class="icon pb-1" />Pontos de coleta</RouterLink>
                         </li>
                         <li class="nav-item">
                             <RouterLink to="/DashboardsView" 
-                            class="link" 
+                            class="link pt-2" 
                             exact-active-class="active-link"
-                            @click="fecharMenu"><Histogram class="icon p-1" />Dashboards</RouterLink>
+                            @click="fecharMenu"><Histogram class="icon pb-1" />Dashboards</RouterLink>
                         </li>
                     </ul>
                 </div>
@@ -71,7 +71,7 @@ function fecharMenu() {
 
 .logo {
     font-weight: bold;
-    font-size: 1.4rem;
+    font-size: 1.35rem;
     color: black;
     text-decoration: none;
     margin-right: 30px;
@@ -103,7 +103,7 @@ function fecharMenu() {
 }
 
 .icon { 
-    width: 2em; 
+    width: 1.5em; 
     height: 2em; 
     margin-right: 8px
 }
