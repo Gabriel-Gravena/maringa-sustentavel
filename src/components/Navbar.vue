@@ -19,7 +19,7 @@ function fecharMenu() {
             <div class="container-fluid m-lg-1">
                 <div class="d-flex align-items-center">
                     <Logo class="mx-1" />
-                    <RouterLink to="/" class="logo">Maringá Sustentavel</RouterLink>
+                    <RouterLink to="/" class="logo">Maringá Sustentável</RouterLink>
                 </div>
                 <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
