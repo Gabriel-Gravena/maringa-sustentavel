@@ -35,28 +35,22 @@ function fecharMenu() {
                             @click="fecharMenu"><HomeFilled class="icon pb-1" />Home</RouterLink>
                         </li>
                         <li class="nav-item">
-                            <RouterLink to="/AprendaView" 
+                            <RouterLink to="/aprenda" 
                             class="link pt-2" 
                             exact-active-class="active-link"
                             @click="fecharMenu"><Reading class="icon pb-1" />Aprenda</RouterLink>
                         </li>
                         <li class="nav-item">
-                            <RouterLink to="/CalculadoraView" 
+                            <RouterLink to="/calculadora" 
                             class="link pt-2" 
                             exact-active-class="active-link"
                             @click="fecharMenu"><Cellphone class="icon pb-1"  />Calculadora</RouterLink>
                         </li>
                         <li class="nav-item">
-                            <RouterLink to="/PontosDeColeta" 
+                            <RouterLink to="/pontos-de-coleta" 
                             class="link pt-2" 
                             exact-active-class="active-link"
                             @click="fecharMenu"><Location class="icon pb-1" />Pontos de coleta</RouterLink>
-                        </li>
-                        <li class="nav-item">
-                            <RouterLink to="/DashboardsView" 
-                            class="link pt-2" 
-                            exact-active-class="active-link"
-                            @click="fecharMenu"><Histogram class="icon pb-1" />Dashboards</RouterLink>
                         </li>
                     </ul>
                 </div>
