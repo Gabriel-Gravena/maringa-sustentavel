@@ -24,12 +24,11 @@ Este projeto propõe o desenvolvimento de uma **plataforma digital educativa e a
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **Vue.js** - Framework progressivo JavaScript para construção de interfaces reativas e modulares.
+- **Vue.js**
 - **HTML5** 
 - **CSS3** 
 - **JavaScript** 
 - **BootStrap**
-- *(Outras tecnologias poderão ser incorporadas conforme evolução do projeto.)*
 
 ---
 
@@ -88,7 +87,3 @@ Este projeto é parte da Atividade de Estudo Programado (AEP) da **Universidade 
 **Guilherme Bandeira Rodrigues**
 
 Estudantes de Engenharia de Software - UniCesumar  
-
-www.linkedin.com/in/gabriel-cesar-gravena
-
-
